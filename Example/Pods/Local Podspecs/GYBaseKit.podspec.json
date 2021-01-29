@@ -1,0 +1,38 @@
+{
+  "name": "GYBaseKit",
+  "version": "0.1.1",
+  "summary": "GYBaseKit",
+  "homepage": "https://www.baidu.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhugy781": "zhugy781@163.com"
+  },
+  "source": {
+    "git": "https://e.coding.net/zhugy781/basemodule/GYBaseKit.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": "GYBaseKit/GYBaseKit/info.plist",
+  "requires_arc": true,
+  "source_files": "GYBaseKit/GYBaseKit/**/*.{h,m}",
+  "public_header_files": "SportsKit/SportsKit/**/*.h",
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC -all_load -l\"icucore\" ",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "libraries": [
+    "icucore",
+    "sqlite3"
+  ],
+  "resource_bundles": {
+    "GYBaseUIKit": [
+      "GYBaseKit/GYBaseKit/UIKit/UIKit.xcassets"
+    ]
+  }
+}

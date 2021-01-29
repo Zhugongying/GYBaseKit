@@ -1,0 +1,13 @@
+install! 'cocoapods',:warn_for_multiple_pod_sources => false,
+preserve_pod_file_structure:true
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+source 'https://e.coding.net/zhugy781/basemodule/GYBaseSpecs.git'
+
+target 'GYBaseKit_Example' do
+  pod 'GYBaseKit', :path => '../'
+
+end

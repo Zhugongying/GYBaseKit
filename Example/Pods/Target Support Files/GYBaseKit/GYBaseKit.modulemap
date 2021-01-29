@@ -1,0 +1,6 @@
+framework module GYBaseKit {
+  umbrella header "GYBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

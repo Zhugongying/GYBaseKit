@@ -1,0 +1,16 @@
+PODS:
+  - GYBaseKit (0.1.1)
+
+DEPENDENCIES:
+  - GYBaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  GYBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYBaseKit: eb4e5bad22fb65eb3ce55ae380d0c5eadfa6a55c
+
+PODFILE CHECKSUM: 9aac3355d30c798f490a163515ccfe6c8981780e
+
+COCOAPODS: 1.9.1
